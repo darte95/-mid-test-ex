@@ -1,9 +1,8 @@
 <?php
-// Database connection details
-$servername = "kritsadin.cmtc.ac.th";
-$username = "kritsadin";
-$password = "@ks1234567890";
-$dbname = "kritsadin";
+$servername = "sql311.infinityfree.com";
+$username = "if0_37010128";
+$password = "PYVNPSicZOyWp";
+$dbname = "if0_37010128_kritsadin";
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
@@ -12,5 +11,6 @@ $conn = mysqli_connect($servername, $username, $password, $dbname);
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }else{
-    echo "Connected successfully";
+	echo "connection successful:";
 }
+?>
